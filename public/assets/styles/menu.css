@@ -1,0 +1,10 @@
+.navbar {
+  background: #ffffff;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  will-change: opacity;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  border-radius: 0;
+  border: none; }
+
+/*# sourceMappingURL=menu.css.map */

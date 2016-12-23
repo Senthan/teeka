@@ -1,0 +1,13 @@
+{
+  "name": "treant-js",
+  "homepage": "https://github.com/fperucic/treant-js",
+  "_release": "e23bb84904",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e23bb849040f8a9d03df1d4719d2f04717b9bef1"
+  },
+  "_source": "git://github.com/fperucic/treant-js.git",
+  "_target": "*",
+  "_originalSource": "fperucic/treant-js"
+}
