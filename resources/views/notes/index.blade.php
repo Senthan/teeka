@@ -32,8 +32,8 @@
             $scope.moduleUrl = "{{ route('note.index') }}/";
             $scope.campaigns = [];
             var columnDefs = [
-                { displayName: 'Name', field: 'title'},
-                { displayName: 'Created', field: 'created_at'}
+                { displayName: 'Title', field: 'title'},
+                { displayName: 'Created At', field: 'created_at'}
             ];
             gridOptions.columnDefs = columnDefs;
             gridOptions.onRegisterApi = function (gridApi) {

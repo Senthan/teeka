@@ -15,6 +15,7 @@
 Auth::routes();
 
 Route::get('/', ['as' => 'home.index', 'uses' => 'HomeController@index']);
+Route::post('logout', ['as' => 'logout', 'uses' => 'Auth\LoginController@logout']);
 // Chat room
 
 $router->group(['prefix' => 'chat'], function ($router) {
